@@ -1,0 +1,21 @@
+.footer {
+    // .footer__container
+    padding: 57px 0 69px 0;
+    background-color: #1a1a1a;
+
+    &__container {
+        max-width: 407px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+        color: #888888;
+    }
+
+    // .footer__link
+
+    &__link {
+        text-decoration: underline;
+    }
+}

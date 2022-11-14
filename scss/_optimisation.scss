@@ -1,0 +1,41 @@
+.optimisation {
+    // .optimisation__title
+    .container {
+        padding: 108px 0 72px 0;
+    }
+    &__content {
+        margin-left: 399px;
+    }
+    &__title {
+        color: #299cbd;
+        font-weight: 900;
+        &.title {
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    // .optimisation__text
+
+    &__text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    // .optimisation__text--bold
+
+    &__text--bold {
+        font-weight: 700;
+    }
+
+    // .optimisation__woman
+
+    &__woman {
+        position: absolute;
+        bottom: 0px;
+        left: -15%;
+        z-index: -1;
+    }
+}

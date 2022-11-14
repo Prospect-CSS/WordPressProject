@@ -1,0 +1,72 @@
+@use "_promo";
+@use "_colors";
+@use "_descr";
+@use "_optimisation";
+@use "_ending";
+@use "_prize";
+@use "_info";
+@use "_footer";
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    line-height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1174px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.btn {
+    background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    width: fit-content;
+    padding: 24px 24px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.yelow {
+    color: var(--yelow);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    &::after {
+        content: "";
+
+        display: block;
+        width: 220px;
+        height: 7px;
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+}

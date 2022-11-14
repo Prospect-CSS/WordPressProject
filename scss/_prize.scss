@@ -1,0 +1,25 @@
+.prize {
+    // .prize__img
+    text-align: center;
+    padding: 88px 0 68px 0;
+    background: #efefef;
+    &__img {
+        max-width: 154px;
+        max-height: 174px;
+    }
+
+    // .prize__text
+
+    &__text {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    // .prize__btn
+
+    &__btn {
+        color: #fff !important;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,52 @@
+.descr {
+    // .descr__title
+    background-color: var(--grey);
+    padding: 88px 0 75px 0;
+
+    &__title {
+        font-weight: 400;
+        &::after {
+            background-color: var(--yelow);
+        }
+    }
+
+    // .descr__subtitle
+
+    &__subtitle {
+        text-align: center;
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    // .descr__cards
+
+    &__cards {
+        display: flex;
+        gap: 48px;
+        margin-top: 45.5px;
+    }
+
+    // .descr__card
+
+    &__card {
+        flex: 1 0 30%;
+    }
+
+    // .descr__card--img
+
+    &__card--img {
+        max-width: 342;
+        max-height: 201;
+    }
+
+    // .descr__card--descr
+
+    &__card--descr {
+        margin-top: 24px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+        text-align: center;
+        color: #4a4a4a;
+    }
+}
